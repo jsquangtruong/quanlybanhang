@@ -1,0 +1,141 @@
+.header{
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  height:60px;
+  background-color: #0f0f0f;
+  
+ 
+}
+.header__navbar{
+  align-items: center;
+  padding: 0 16px;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.header__navbar-list{
+   
+  list-style: none;
+  padding-left: 0;
+
+
+}
+.header__navbar-item{
+  position: relative  ;
+  display:inline-block;
+  margin: 0 8px;
+    min-height: 14px;
+}
+.header__navbar-item,
+.header__navbar-icon-link,
+.header__navbar-item-link{
+  display: inline-flex;
+  align-items: center;
+}
+.header__navbar-item:hover,
+.header__navbar-item-link:hover{
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+.header__navbar-item,
+.header__navbar-item-link{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color:#fff ;
+    font-weight: 300;
+}
+.header__navbar-item--separate{
+  font-family: 'Indie Flower', cursive;
+  font-size: 25px;
+}
+.header__navbar-item--separate::after{
+  content: "";
+  display: block;
+    position: absolute;
+    width: 1px;
+    height: 16px;
+    background-color: #fff;
+    right: -10px;
+    top: 6px;
+}
+.header__navbar-icon-link{
+  color: #fff;
+  text-decoration: none;
+  margin: 0 3px;
+}
+.header__navbar-title{
+  cursor: text;
+  color:#fff;
+}
+.header__navbar-icon-link:hover{
+   color: rgba(255, 255, 255, 0.5);
+
+}
+.header__navbar-search{
+    flex: 1;
+    background-color:#fff;
+    height: 2.5rem;
+    right: 1rem;
+    border-radius: 2rem;
+}
+.header___navbar-search-text{
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  border-radius: 4rem;
+  font-size: 1.2 rem;
+  font-weight: 300;
+
+}
+.header__service{
+   position: absolute;
+    border-radius: 18px;
+   top: 150%;
+   right: 0;
+   border: 1px solid #d3d3d3;
+   background-color: #fff;
+   width: 404px;
+   
+}
+.header__service-header{
+  height: 40px;
+  color: #0f0f0f;
+  text-align: center;
+} 
+
+.header__service-list{
+  list-style: none;
+} 
+
+.header__service-link{
+  display: flex;
+  margin-bottom: 20px;
+} 
+
+.header__service-img{
+ width: 60px;
+  
+
+} 
+
+.header__service-infor{
+ color: black;
+ margin-left: 30px;
+ 
+} 
+
+.header__service-name{
+ display: block;
+ text-decoration: none;
+ font-weight: 400;
+ font-size: 14px;
+  
+} 
+
+.header__service-descriotion{
+  font-size: 10px;
+} 
