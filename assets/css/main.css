@@ -114,7 +114,7 @@
 .header__service-link{
   display: flex;
   margin-bottom: 20px;
-  
+  display: block;
 } 
 
 .header__service-img{
